@@ -13,7 +13,7 @@ As one of contributions in Meta-Personalizing Vision-Language Models To Find Nam
 > UC Berkeley, CIIRC CTU, Adobe Research<br>
 > In CVPR 2023
 
-<img src="https://github.com/danielchyeh/metaper/blob/main/assets/metaper-thisismy.png" alt="image" width="100%">
+<img src="https://github.com/danielchyeh/this-is-my/blob/main/assets/metaper-thisismy.png" alt="image" width="100%">
 
 Examples from This-Is-My: Meta-Personalization D (top) vs Test-time personalization P (bottom-left) vs Query-time Q (bottom-right) datasets. In the Query-time dataset (bottom-right), we design a challenging video instance retrieval task. 
 For example, the named instance (i.e., Alex's piano) is in the background and is barely visible, and for "Zak's dog Coffee", the background scenes in the query-time dataset (bottom-right) are completely different from the test-time personalization dataset (bottom-left) depicting the same named instance.
