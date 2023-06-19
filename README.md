@@ -63,7 +63,7 @@ Note that you can replace 'train' with 'eval' to download video segments for eva
 
 ### Retrieving *This-Is-My* Metadata
 ```
-python this-is-my-dataset.py
+python thisismy_dataset.py
 ```
 We can retrieve the metadata of dataset by `load_thisismy(ANNO_FILE,SEGMENT_FILE)`. The returned variables contain the following information:
 
