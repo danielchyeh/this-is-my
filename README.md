@@ -47,9 +47,8 @@ conda activate this-is-my
 conda install pytorch==1.7.0 torchvision torchaudio cudatoolkit=11.0 -c pytorch
 
 # packages for downloading video segments
-conda install -c conda-forge pytube
-conda install -c conda-forge moviepy
-conda install -c anaconda pandas
+pip install moviepy
+pip install pandas
 ```
 
 ### How to Download the *This-Is-My* Dataset?
