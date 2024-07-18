@@ -4,6 +4,9 @@ import argparse
 import pandas as pd
 import numpy as np
 import csv
+import sys
+sys.path.append(os.path.join(os.getcwd(), "libs"))
+
 from pytube import YouTube
 import pytube
 from moviepy.editor import VideoFileClip
@@ -42,6 +45,7 @@ def download_video(segment_id, video_id, start_time, end_time, output_video, out
         else:
             video = youtube.streams.filter(progressive=True, file_extension="mp4").first()
             video_path = video.download(output_path=output_video, filename=f"{video_id}_{youtube.title}.mp4")
+            print(f"downloading {video_path}")
 
     except pytube.exceptions.VideoPrivate:
         print(f"Skipping private video: {video_id}")
